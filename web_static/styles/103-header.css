@@ -1,18 +1,13 @@
-header {
-	background-color: white;
-	height: 70px;
+/* Styling sheet for the footer */
+footer {
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: #fafafafa;
+	height: 60px;
 	width: 100%;
-	
-	border-bottom: 1px solid #CCCCCC;
-}
-
-#header_logo {
-	height: 100%;
-	width: 142px;
-
-	background-image: url("../images/logo.png");
-	background-repeat: no-repeat;
-	background-position: center;
-
-	margin-left: 20px;
+	justify-content: center;
+	border-top: 1px solid #CCCCCC;
+	display: flex;
+	text-align: center;
 }

@@ -1,18 +1,12 @@
+/* Header Styling sheet */
 header {
+	margin: 0px;
+	padding: 0px;
 	background-color: white;
 	height: 70px;
 	width: 100%;
-	
 	border-bottom: 1px solid #CCCCCC;
-}
-
-#header_logo {
-	height: 100%;
-	width: 142px;
-
-	background-image: url("../images/logo.png");
+	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
-	background-position: center;
-
-	margin-left: 20px;
+	background-position: 20px center;
 }

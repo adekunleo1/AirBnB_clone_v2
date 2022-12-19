@@ -1,13 +1,37 @@
+/* Global styling sheet */
 body {
-	margin:0px;
-	padding:0px;
-
+	margin: 0px;
+	padding: 0px;
 	color: #484848;
 	font-size: 14px;
-	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: white;
+	font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+	color: #000000;
+	background-color: white;
+
+.container {
+	max-width: 1000px;
+	margin: 30px auto;
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
 }
 
 .container {
     max-width: 1000px;
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 765px) {
+    body {
+        font-size: 88%;
+    }
 }

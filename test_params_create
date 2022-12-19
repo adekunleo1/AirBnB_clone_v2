@@ -1,0 +1,6 @@
+create State name="California"
+create State name="Arizona"
+all State
+
+create Place city_id="0001" user_id="0001" name="My_beautiful_house" number_rooms=3 number_bathrooms=1 max_guest=4 price_by_night=250 latitude=36.556743 longitude=-121.332135
+all Placee

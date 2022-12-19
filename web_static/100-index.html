@@ -1,195 +1,257 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="En">
 	<head>
-		<title>AirBnB clone</title>
-
-		<link rel="shortcut icon" href="images/icon.ico" >
-
-		<link rel="stylesheet" href="styles/4-common.css"/>
-		<link rel="stylesheet" href="styles/3-header.css"/>
-		<link rel="stylesheet" href="styles/3-footer.css"/>
-		<link rel="stylesheet" href="styles/6-filters.css"/>
-		<link rel="stylesheet" href="styles/100-places.css"/>
+		<meta charset="UTF-8">
+		<title>
+			AirBnB Clone
+		</title>
+		<link rel="icon" type="images/png" href="images/icon.png"> <!--- Linking the icon to appear in the tab bar -->
+		<link href="styles/4-common.css" rel="stylesheet" type="text/css"> <!--- Linking global style sheet -->
+		<link href="styles/3-header.css" rel="stylesheet" type="text/css"> <!--- Linking header style sheet -->
+		<link href="styles/3-footer.css" rel="stylesheet" type="text/css"> <!--- Linking footer style sheet -->
+		<link href="styles/6-filters.css" rel="stylesheet" type="text/css"> <!--- Linking filters style sheet -->
+		<link href="styles/100-places.css" rel="stylesheet" type="text/css"> <!--- Linking places style sheet -->
 	</head>
-    <body>
+	<body>
 		<header>
-			<div id="header_logo"></div>
 		</header>
 		<div class="container">
 			<section class="filters">
-				<button>Search</button>
 				<div class="locations">
 					<h3>States</h3>
-					<h4>California, Arizona...</h4>
+					<h4>Lagos, Yukon . . .</h4>
 					<ul class="popover">
-						<li><h2>Arizona</h2>
-							<ul>
-								<li><h4>Page</h4></li>
-								<li><h4>Page2</h4></li>
-							</ul></li>
-						<li><h2>California</h2>
-							<ul>
-								<li><h4>San Francisco</h4></li>
-								<li><h4>Los Altos</h4></li>
-							</ul></li>
+						<li><h2>Lagos:</h2></li>
+						<li><p>Berger</p></li>
+						<li><p>Ketu</p></li>
+						<li><h2>Yukon:</h2></li>
+						<li><p>kemir</p></li>
+						<li><p>Quebec</p></li>
 					</ul>
 				</div>
-				<div class="filter_amenities">
-					<h3>Amenities</h3>
-					<h4>Internet, Kitchen...</h4>
+				<div class="amenities">
+					<h3>Amemities</h3>
+					<h4>Internet, Restaurant . . .</h4>
 					<ul class="popover">
-						<li><h4>Internet</h4></li>
-						<li><h4>TV</h4></li>
-						<li><h4>Kitchen</h4></li>
-						<li><h4>Iron</h4></li>
+						<li><p>Club</p></li>
+						<li><p>Internet</p></li>
+						<li><p>Restaurant</p></li>
+						<li><p>Swimming Pool</p></li>
 					</ul>
 				</div>
-
+				<button>Search</button>
 			</section>
 			<section class="places">
-				<h1>Places</h1>
-				<article>
-					<div class="headline">
-						<h2 class="article_title">My home</h2>
-						<div class="price_by_night">$80</div>
-					</div>
-					<div class="information">
-						<div class="max_guest">
-							<div class="guest_icon"></div>
-							<p>2 Guests</p>
+                		<h1>Places</h1>
+                			<article>
+                    				<div class="name_and_price">
+                      					<h2>Ikoyi Club house</h2>
+                      				<div class="price_by_night">&#36;990</div>
 						</div>
-						<div class="number_rooms">
-							<div class="bed_icon"></div>
-							<p>1 Bedroom</p>
+                    				<div class="information">
+                      					<div class="max_guest">
+                        				<i class="fa fa-users fa-3x" aria-hidden="true"></i>
+								<br> Guests
+							</div>
+                      					<div class="number_rooms">
+                        				<i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+								<br>3 Rooms
+                      					</div>
+                      					<div class="number_bathrooms">
+                        				<i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+								<br>4 Bathrooms
+							</div>
 						</div>
-						 <div class="number_bathrooms">
-							<div class="bath_icon"></div>
-							<p>1 Bathroom</p>
+                    				<div class="user">
+                      					<strong>Owner:</strong> Ogunleye AS
 						</div>
+				                <div class="description">
+                      Beautifully Furnished excellent parking garage house for, for your family. A nice place to spend your holidays and vacations.
+						</div>
+						<div class="amenities">
+							<h2>Amenities</h2>
+							<ul>
+								<li><span class="tv">TV</span></li>
+								<li><span class="wifi">WiFi</span></li>
+								<li><span class="pets">Pet friendly</span></li>
+								<li><span class="rest">Restaurant</span></li>
+								<li><span class="pool">Sweeming pool</span></li>
+							</ul>
+						</div>
+						<div class="reviews"><h2>3 Reviews</h2>
+							<ul>
+								<li>
+									<h3>From Adefenwa Kuburat on 15th February, 2021</h3>
+									<p>This place is calm and peaceful, and will be back</p>
+								</li>
+								<li>
+									<h3>From Jarren Louis 1st July, 2022</h3>
+									<p>The best serene environment you could ever be, 5 stars!</p>
+								</li>
+								<li>
+									<h3>From Raheem Ogunde on 20th July, 2022</h3>
+									<p>Recommended</p>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+                  			<article>
+                    			<div class="name_and_price">
+                      				<h2>Stardude</h2>
+                      					<div class="price_by_night">&#36;614</div>
 					</div>
-					<div class="user"><b>Owner</b>: John Lennon</div>
-					<div class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    			<div class="information">
+                      				<div class="max_guest">
+                        				<i class="fa fa-users fa-3x" aria-hidden="true"></i>
+								<br>1 Guest
+						</div>
+			                      <div class="number_rooms">
+				                        <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+								<br>1 Room
+					      </div>
+			                      <div class="number_bathrooms">
+                        <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+			<br>2 Bathroom
+                      </div>
                     </div>
-					<div class="amenities">
-						<h2 class="article_subtitle">Amenities</h2>
-						<ul>
-							<li><div class="tv_icon"></div>TV</li>
-							<li><div class="wifi_icon"></div>Wifi</li>
-							<li><div class="pet_icon"></div>Pet friendly</li>
-						</ul>
-					</div>
-					<div class="reviews">
-						<h2 class="article_subtitle">Reviews</h2>
-						<ul>
-							<li>
-								<div class="review_item">
-									<h3>From Bob Dylan the 27th January 2017</h3>
-									<p class="review_text">Wow, what can I say?! I'm a real rolling stone, you may have heard, but - by golly - I'd just as well settle down in this humble home, if you'd part with it - course, I'm sure you wouldn't. Real shame too. Oh well...</p>
-								</div>
-							</li>
-							<li>
-								<div class="review_item">
-									<h3>From Justin Majetich the 28th April 1991</h3>
-									<p class="review_text">I was birthed in this here bathtub today!</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<div class="headline">
-						<h2 class="article_title">Tiny house</h2>
-						<div class="price_by_night">$65</div>
-					</div>
-					<div class="information">
-                        <div class="max_guest">
-                            <div class="guest_icon"></div>
-                            <p>4 Guests</p>
-                        </div>
-                        <div class="number_rooms">
-                            <div class="bed_icon"></div>
-                            <p>2 Bedroom</p>
-                        </div>
-                         <div class="number_bathrooms">
-                            <div class="bath_icon"></div>
-                            <p>1 Bathroom</p>
-                        </div>
+                    <div class="user"><strong>Owner:</strong> Baily Benji</div>
+                    <div class="description">
+                      Your time here in a serene house surrounded by magnificent nature and a beautiful mansion set!!
                     </div>
-					<div class="user"><b>Owner</b>: Adrienne</div>
-					<div class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		    <div class="amenities">
+			    <h2>Amenities</h2>
+<ul>
+								<li><span class="wifi">WiFi</span></li>
+								<li><span class="tv">TV</span></li>
+								<li><span class="kitchen">Kitchen</span></li>
+								<li><span class="pool">Sweeming pool</span></li>
+							</ul>
+
+		    </div>
+		    <div class="reviews"><h2>3 Reviews</h2>
+			    <ul>
+				    <li>
+					    <h3>From Tamil Arji on 27th February, 2016</h3>
+					    <p>Very serence place, love waking up to the songs from birds.</p>
+				    </li>
+				    <li>
+					    <h3>From Daniel Banks 15th January, 2019</h3>
+					    <p>Enjoyed my vacation here, thank you very much</p>
+				    </li>
+				    <li>
+					    <h3>From Abidoyin Obim on 14th February, 2020</h3>
+					    <p>This place is very wonderful</p>
+				    </li>
+			    </ul>
+		    </div>
+                  </article>
+
+                  <article>
+                    <div class="name_and_price">
+                      <h2>Oraimo</h2>
+                      <div class="price_by_night">&#36;820</div>
                     </div>
-					<div class="amenities">
-                        <h2 class="article_subtitle">Amenities</h2>
-                        <ul>
-                            <li><div class="tv_icon"></div>TV</li>
-                            <li><div class="wifi_icon"></div>Wifi</li>
-                        </ul>
+                    <div class="information">
+                      <div class="max_guest">
+                        <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+			<br>2 Guests
+                      </div>
+                      <div class="number_rooms">
+                        <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+			<br>2 Rooms
+                      </div>
+                      <div class="number_bathrooms">
+                        <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+			<br>3 Bathroom
+                      </div>
                     </div>
-                    <div class="reviews">
-                        <h2 class="article_subtitle">Reviews</h2>
-                        <ul>
-                            <li>
-								<div class="review_item">
-                                	<h3>From Bilbo Baggins the 6th June 2089</h3>
-                                	<p class="review_text">The place was spotless, and Adrienne was an excellent host, leaving fresh biscuits out for my ravenous arrival.</p>
-								</div>
-                            </li>
-                        </ul>
+                    <div class="user">
+                      <strong>Owner:</strong> Olatunde
                     </div>
-				</article>
-				<article>
-					<div class="headline">
-						<h2 class="article_title">A suite</h2>
-						<div class="price_by_night">$180</div>
-					</div>
-					<div class="information">
-                        <div class="max_guest">
-                            <div class="guest_icon"></div>
-                            <p>5 Guests</p>
-                        </div>
-                        <div class="number_rooms">
-                            <div class="bed_icon"></div>
-                            <p>3 Bedroom</p>
-                        </div>
-                         <div class="number_bathrooms">
-                            <div class="bath_icon"></div>
-                            <p>2 Bathroom</p>
-                        </div>
+                    <div class="description">
+                     Fill yourself and your partner with the pleasure you can never imagine on your honey moon, a nice and private apartment for the two of you. so are you coming?
                     </div>
-					<div class="user"><b>Owner</b>: Betty Holberton</div>
-					<div class="description">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</div>
-					<div class="amenities">
-                        <h2 class="article_subtitle">Amenities</h2>
-                        <ul>
-                            <li><div class="pet_icon"></div>Pet friendly</li>
-                        </ul>
+		    <div class="amenities">
+			    <h2>Amenities</h2>
+<ul>
+								<li><span class="wifi">WiFi</span></li>
+								<li><span class="tv">TV</span></li>
+								<li><span class="rest">Restaurant</span></li>
+								<li><span class="club">Club</span></li>
+								<li><span class="pool">Sweeming pool</span></li>
+							</ul>
+
+		    </div>
+		    <div class="reviews"><h2>2 Reviews</h2>
+			    <ul>
+				    <li>
+					    <h3>From Jamie Larson on May September, 2022</h3>
+					    <p>This is very quiet and peaceful place, we really enjoyed our stay.</p>
+				    </li>
+				    <li>
+					    <h3>From Swiss Line on 30th April, 2021</h3>
+					    <p>What a nice place to spend time with a partner, I really enjoyed my time here</p>
+				    </li>
+			    </ul>
+		    </div>
+                  </article>
+
+                  <article>
+                    <div class="name_and_price">
+                      <h2>Ranch House</h2>
+                      <div class="price_by_night">&#36;999</div>
                     </div>
-                    <div class="reviews">
-                        <h2 class="article_subtitle">Reviews</h2>
-                        <ul>
-                            <li>
-								<div class="review_item">
-                                	<h3>From Beyonce Knowles the 16th September 2013</h3>
-                                	<p class="review_text">Betty was a sweetheart. Jay, I and the kids thoroughly enjoyed out stay.</p>
-								</div>
-                            </li>
-                            <li>
-								<div class="review_item">
-                                	<h3>From Julien Barbier the 1th August 2008</h3>
-                                	<p class="review_text">What a beautiful home! I had one of the best night's sleeps of my life and woke up with an idea!</p>
-								</div>
-                            </li>
-                        </ul>
+                    <div class="information">
+                      <div class="max_guest">
+                        <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+			<br>4 Guests
+                      </div>
+                      <div class="number_rooms">
+                        <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+			<br>5 Rooms
+                      </div>
+                      <div class="number_bathrooms">
+                        <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+			<br>6 Bathrooms
+                      </div>
                     </div>
-				</article>
-			</section>
+                    <div class="user">
+                      <strong>Owner:</strong> Patois Kimberly</div>
+                    <div class="description">
+                     Stay in a beachfront house close to the ocean, watch the sun set and sun rise every morning and evening with beautiful sea breeze while watching the sea lions and ask yourself this "what more can i ask for?"
+                    </div>
+		    <div class="amenities">
+			    <h2>Amenities</h2>
+<ul>
+								<li><span class="wifi">WiFi</span></li>
+								<li><span class="pets">Pet friendly</span></li>
+								<li><span class="tv">TV</span></li>
+								<li><span class="kitchen">Kitchen</span></li>
+							</ul>
+
+		    </div>
+		    <div class="reviews"><h2>3 Reviews</h2>
+			    <ul>
+				    <li>
+					    <h3>From Kengs Liu on 6th August, 2021</h3>
+					    <p>The nature is beautiful and awesome, I love it here</p>
+				    </li>
+				    <li>
+					    <h3>From Lami Laide on 19th May, 2021</h3>
+					    <p>It is a great experience, I will be back</p>
+				    </li>
+				    <li>
+					    <h3>From Ajayi Benson on 18th August, 2021</h3>
+					    <p>Nice place, great reception</p>
+				    </li>
+			    </ul>
+		    </div>
+                  </article>
+            </section>
 		</div>
 		<footer>
-			<p>Holberton School</p>
+			<p>Best School</p>
 		</footer>
 	</body>
 </html>
