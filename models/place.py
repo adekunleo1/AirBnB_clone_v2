@@ -1,5 +1,5 @@
 #!/usr/bin/python
-""" holds class Place"""
+""" To hold class Place"""
 import models
 from models.base_model import BaseModel, Base
 from os import getenv
@@ -20,7 +20,7 @@ if models.storage_t == 'db':
 
 
 class Place(BaseModel, Base):
-    """Representation of Place """
+    """Represents Place """
     if models.storage_t == 'db':
         __tablename__ = 'places'
         city_id = Column(String(60), ForeignKey('cities.id'), nullable=False)
